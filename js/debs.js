@@ -10,7 +10,7 @@ function atualizarContador(data, elementoId) {
     const horas = Math.floor(diferenca / (1000 * 60 * 60)) % 24;
     const dias = Math.floor(diferenca / (1000 * 60 * 60 * 24));
 
-    const texto = `${dias}d ${horas}h ${minutos}m ${segundos}`;
+    const texto = `${dias}d ${horas}h ${minutos}m`;
     document.getElementById(elementoId).textContent = texto;
 }
 
