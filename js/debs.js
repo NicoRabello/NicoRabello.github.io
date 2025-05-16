@@ -59,7 +59,7 @@ document.addEventListener('mousemove', function(e) {
   }
   setInterval(slideNext, 3000);
 
-  const hora1 = new Date("2025-05-17T00:03:00");
+  const hora1 = new Date("2025-05-17T01:03:00");
 
   const hora2 = new Date("2025-05-17T10:01:00");
 
