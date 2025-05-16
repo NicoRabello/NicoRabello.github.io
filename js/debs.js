@@ -75,14 +75,12 @@ document.addEventListener('mousemove', function(e) {
     }
   }
 
-  // Verifica imediatamente
   verificarMensagens();
 
-  // E continua verificando a cada segundo
   const intervalo = setInterval(() => {
     verificarMensagens();
     const agora = new Date();
     if (agora >= hora1 && agora >= hora2) {
-      clearInterval(intervalo); // Para quando ambas já foram mostradas
+      clearInterval(intervalo);
     }
   }, 1000);
